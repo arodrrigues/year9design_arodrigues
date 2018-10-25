@@ -12,7 +12,7 @@ listbox.config(background="pink")
 listbox.config(foreground="black")
 listbox.pack()
 listbox.insert(END, "Player, Goals")
-lst = [["connor mcdavid",208], ["sidney crosby", 234], ["steven stamkos", 187], ["auston mathews", 70]]
+lst = [["jack fejer",208], ["zane roberge", 234], ["josh heldman", 187], ["jon choptiany", 70]]
 for item in lst:
     listbox.insert(END, item[0] + "-" + str(item[1]))
     
